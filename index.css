@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 1024px;
+    height: auto;
+    margin: 10px auto;
+    border: 2px solid gold;
+    border-radius: 16px;
+    background: url(/Fondo.jpg) repeat-x;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header,
+nav,
+footer {
+    background-color: lightgrey;
+    border: 2px solid gold;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+}
+
+header,
+nav,
+footer {
+    width: 1024px;
+}
+
+header {
+    height: 300px;
+    font-family:'Michroma', sans-serif;
+    background: url(/fondorayos.jpg);
+    background-size: contain;
+}
+.titulo2 {
+    display: block ;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 16px;
+    border: 2px double black;
+}
+.iconoencabezado {
+    height: 250px;
+}
+
+nav {
+    height: 48px;
+}
+.botonesnavegacion {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    border: 3px double yellow;
+}
+main, aside {
+    height: auto;
+    background-color: lightgrey;
+    border: 2px solid gold;
+    border-radius: 16px;
+    padding: 10px;
+    font-family: 'Noto Sans Mende Kikakui', sans-serif;
+}
+main {
+    width: 800px;
+}
+.cont-ppal1 {
+    height: 200px;
+}
+.cont-ppal2 {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+        
+}
+aside { 
+    width: 220px;
+    text-align: center;
+    
+}
+footer {
+    height: 32px;
+}
