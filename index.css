@@ -78,14 +78,31 @@ main, aside {
 main {
     width: 800px;
 }
-.cont-ppal1 {
-    height: 200px;
+.Parrafos {
+    margin: 25px;
 }
+.cont-ppal1 {
+    display: flex;
+    align-items: center;
+    
+    }
+
 .cont-ppal2 {
     height: 100px;
     width: 100px;
     object-fit: cover;
-        
+}
+.tamaño-img-content {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.fraseresaltada {
+    font-family:'Michroma', sans-serif;
+    size: 25px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
 }
 aside { 
     width: 220px;
@@ -93,5 +110,18 @@ aside {
     
 }
 footer {
-    height: 32px;
+    height: auto;
+    
+}
+.piedepagina1 {
+    margin-left: 10%;
+
+}
+
+.piedepagina2 {
+    height: 150px;
+}
+.texto-conocenos {
+    font-size: 20px;
+    
 }
